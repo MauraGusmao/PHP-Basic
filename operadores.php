@@ -1,0 +1,6 @@
+<?php
+/*
+    COMO FAZER OPERAÇOES ARITMETICAS EM PHP?
+    
+*/
+?>
