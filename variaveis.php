@@ -53,6 +53,6 @@
      use aspas duplas.
 
      resultado (Ana tem 20 anos)
-    */                         
-    
+    */
     ?>
+    
