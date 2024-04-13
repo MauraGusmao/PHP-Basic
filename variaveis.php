@@ -6,6 +6,7 @@
     echo " ola ,mundo <br/>";
 
     *----------------------------------------------------------------------------*
+    
                                 variáveis
     Todas as variaveis do php possuem um $ (int, float, bool, etc..) 
     no php nao existe declaracoes de variaveis, os tipos vao ser atribuidos
