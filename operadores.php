@@ -118,14 +118,45 @@
      (o ano atual e 2024 e o ano anterior e 2023)
 
 
-    
+
+
+     *--------------------------------------------------------------*
+                     OPERADORES RELACIONAIS
+
+    Operadores de comparação permite que você compare dois valores
+
+
+    EX:         Nome                    Resultado
+
+    $a > $b     maior                   Verifica se um valor é maior que o outro
+
+    $a < $b     menor                   Verifica se um valor é menor que o outro
+
+    $a >= $b    maior ou igual          Verifica se um valor é maior ou igual ao outro
+
+    $a <= $b    menor ou igual          Verifica se um valor é menor ou igual ao outro
+
+    $a == $b    igual                   Verifica se um valor é igual ao outro
+
+    $a != $b    diferente               verifica se os valores são  diferente 
+
+    $a === $b   idêntico                Verifica se dois valores são iguais e do mesmo tipo
 
     
     
-    
+    *--------------------------------------------------------------*
+                     OPERADORES LÓGICOS
 
-   
+     Oeradores logicos são usados para combinar expressões logicas e produzir um resultado booleano(verdadeiro ou falso
+     
+     
+    EX:         Nome                    Resultado
 
+    $a && $b    E                       Retorna V se as expressões for verdadeira
+
+    $a || $b    OU                      Retorna V se pelo menos uma das expressões for verdadeira
+
+    !$a         NÃO                     Inverte o valor de uma expressão
 */
 
 ?>
