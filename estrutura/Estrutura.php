@@ -57,12 +57,46 @@
                     echo "dia nao conhecido";
             }
 
+            *impressão*
+            (hoje e terça)
+
     
-    2- Loops (for, while):
-        Os loops são usados para executar
-        um bloco de  código repetidamente enquanto uma condição for verdadeira
+    2- Loops (for, while, do while):
+        Os loops são usados para executar um bloco de  código 
+        repetidamente enquanto uma condição for verdadeira
+
         o loop for é usado quando o número de iterações é conhecida antecipadamente
-        
+
+            for ($i = 0; $i < 5; $i++){ // no for vamos ter a inicializaçaõ ; condição ;incremento
+                echo $i ."<br/>"; // codigo a ser executado
+            }
+            impressão (0 
+                       1
+                       2
+                       3
+                       4) 
+           
+        while é usado para quando o numero de iterações não é conhecido antecipadamente
+            $contador = 0;
+            while($contador < 5){ // contador é a condição , se o contatodor for menor que 5 o bloco é executado
+                echo $contador . "<br/>"; //codigo a ser executado ser a codição for verdadeira
+                $contador++; //  apos cada iteração o contador é incrementado em 1
+            }   
+            impressao (0
+                       1
+                       2
+                       3
+                       4)
+
+        do while  é semelhante ao while , mas verifica a condição apos a execução do bloco do codigo ,garantindo que o bloco
+        seja executado pelo menos uma vez
+            $contador = 0;
+            do{
+                echo $contador ."<br/>" ; // o 'do' vai imprimir o valor atual e depois incrementa em 1
+                $contador++
+            }
+            while ($contador < 5); // se a condição for V o bloco do 'do' é executado , se a condiçao for falsa o loop encerra , assim valendo para for , while.
+
 
 
     
